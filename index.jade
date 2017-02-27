@@ -17,24 +17,83 @@ html(lang="en")
 
 	body
 		.container-fluid
-			.row
-				.col-xs-12
-					ul.nav
-						li(role="presentation").active
-							a(href="#") Varmeløsninger
-						li(role='presentation')
-							a(href="#") Varmestyring
-						li(role="presentation")
-							//- img(src="http://placehold.it/25x25")
-							.logo
-								a
-									span.logo-heading ThermoFloor
-									span.logo-subheading Inn i varmen 
-						li(role="presentation")
-							a(href="#") Smarthus
-						li(role="presentation")
-							a(href="#") Kontakt 
+			// MY OWN NAV
+			//- .row
+			//- 	.col-xs-12
+			//- 		ul.nav
+			//- 			li(role="presentation").active
+			//- 				a(href="#") Varmeløsninger
+			//- 			li(role='presentation')
+			//- 				a(href="#") Varmestyring
+			//- 			li(role="presentation")
+			//- 				//- img(src="http://placehold.it/25x25")
+			//- 				.logo
+			//- 					a
+			//- 						span.logo-heading ThermoFloor
+			//- 						span.logo-subheading Inn i varmen 
+			//- 			li(role="presentation")
+			//- 				a(href="#") Smarthus
+			//- 			li(role="presentation")
+			//- 				a(href="#") Kontakt 
+			
+			// CUSTOM NAV
+			//- #custom-bootstrap-menu.navbar.navbar-default.navbar-fixed-top(role='navigation')
+			//- 	.container-fluid
+			//- 		.navbar-header
+			//- 			button.navbar-toggle(type='button', data-toggle='collapse', data-target='.navbar-menubuilder')
+			//- 				span.sr-only Toggle navigation
+			//- 				span.icon-bar
+			//- 				span.icon-bar
+			//- 				span.icon-bar
+			//- 		.collapse.navbar-collapse.navbar-menubuilder
+			//- 			//- ul.nav.navbar-nav.navbar-left
+			//- 			ul.nav.navbar-nav
+			//- 				li
+			//- 					a(href='#') Varmeløsninger
+			//- 				li
+			//- 					a(href='#') Varmestyring
+			//- 				li
+			//- 					a(href='#') Smarthus
+			//- 				li
+			//- 					a(href='#') Kontakt
+			
+			// Bootstrap nav
+			nav.navbar.navbar-default
+				.container-fluid
+					.navbar-header
+						// Button for toggling menu on mobile
+						button.navbar-toggle.collapsed(type='button', data-toggle='collapse', data-target='#bs-example-navbar-collapse-1', aria-expanded='false')
+							span.sr-only Toggle navigation
+							span.icon-bar
+							span.icon-bar
+							span.icon-bar
+					
+					// The menu itself 
+					#bs-example-navbar-collapse-1.collapse.navbar-collapse
+						ul.nav.navbar-nav
+							//- li.active
+							//- 	a(href='#')
+							//- 		| Link 
+							//- 		span.sr-only (current)
+							li
+								a(href='#') Varmeløsninger
+							li
+								a(href='#') Varmestyring
+							li(role="presentation")
+								//- img(src="http://placehold.it/25x25")
+								.logo
+									a(href='#')
+										span.logo-heading ThermoFloor
+										span.logo-subheading Inn i varmen 
+							li
+								a(href='#') Smarthus
+							li
+								a(href='#') Kontakt
+								
+						
 							
+
+
 			.row
 				.col-md-6
 					img(src="http://placehold.it/600x200/2ecc71/fff", alt="Placeholder image").img-responsive.top-img
@@ -47,11 +106,13 @@ html(lang="en")
 				.col-md-6.center-tile
 					//- img(src="http://placehold.it/600x200/f1c40f/fff", alt="Placeholder image").img-responsive.center-img
 					h1 Inn i varmen
-					
 				.col-md-3
 					img(src="http://placehold.it/300x200/9b59b6/fff", alt="Placeholder image").img-responsive
 			
 			.row
 				.col-md-12
 					img(src="http://placehold.it/1000x200/c4004d/fff", alt="Placeholder image").img-responsive
+			
+			.row
+			
 				

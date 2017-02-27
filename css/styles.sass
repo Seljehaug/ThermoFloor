@@ -23,47 +23,88 @@ $light-black: #797979
 body
 	font-family: "Roboto", sans-serif
 
-.nav
-	margin-bottom: -5px
+// .nav
+// 	margin-bottom: -5px
+// 	background-color: $white
+// 	display: flex
+// 	justify-content: center
+// 	align-items: center
+// 	border-bottom: 2px solid $white
+// 	ul
+// 		border: 2px solid $black
+// 		li
+// 			// padding: 10px
+//
+// 	a
+// 		font-weight: 700
+// 		color: $black
+//
+// .nav
+// 	li
+// 		padding: 20px
+// 		&:hover
+// 			// background-color: red
+// 		a:hover
+// 			// background-color: $black
+// 			color: $red
+// 			background-color: $white
+// 			transform: scale(1.1)
+// 			text-decoration: none
+//
+// .logo
+// 	// padding: 5px 20px
+// 	.logo-heading, .logo-subheading
+// 		display: block
+// 	.logo-heading
+// 		color: $red
+// 		font-size: 18px
+// 	.logo-subheading
+// 		color: $light-black
+// 		text-align: center
+// 		font-size: 12px
+// 		margin-top: -2px
+
+
+// Bootstrap navbar stylings
+.navbar
+	margin-left: -15px
+	margin-right: -15px
 	background-color: $white
-	display: flex
-	justify-content: center
-	align-items: center
-	border-bottom: 2px solid $white
-	ul
-		border: 2px solid $black
+	border: none
+	margin-bottom: 0
+	margin-top: 0
+	.navbar-nav
+		display: flex
+		justify-content: center
+		align-items: center
+		width: 100%
 		li
-			// padding: 10px
+			padding: 10px
+			a
+				color: $black
+				font-weight: 700
+				&:hover
+					color: $red
+					background-color: $white
+					transform: scale(1.1)
+					text-decoration: none
+		.logo
+			// padding: 5px 20px
+			a
+				text-decoration: none
+			.logo-heading, .logo-subheading
+				display: block
+			.logo-heading
+				color: $red
+				font-size: 18px
+			.logo-subheading
+				color: $light-black
+				text-align: center
+				font-size: 12px
+				margin-top: -2px
 
-	a
-		font-weight: 700
-		color: $black
 
-.nav
-	li
-		padding: 20px
-		&:hover
-			// background-color: red
-		a:hover
-			// background-color: $black
-			color: $red
-			background-color: $white
-			transform: scale(1.1)
-			text-decoration: none
-
-.logo
-	// padding: 5px 20px
-	.logo-heading, .logo-subheading
-		display: block
-	.logo-heading
-		color: $red
-		font-size: 18px
-	.logo-subheading
-		color: $light-black
-		text-align: center
-		font-size: 12px
-		margin-top: -2px
-
+// End of bootstrap navbar stylings
 img
 	width: 100%
 	border: 2px solid $white
@@ -73,6 +114,8 @@ img
 
 .center-row
 	display: flex
+	// [class*="col-"]
+	// 	display: flex
 	.center-tile
 		display: flex
 		justify-content: center
