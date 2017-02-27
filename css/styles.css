@@ -1,0 +1,84 @@
+/* Imports */
+/* Variables */
+/* Removing the space around Bootstrap columns */
+[class*="col-"] {
+  padding-left: 0;
+  padding-right: 0; }
+  [class*="col-"] .row {
+    margin-left: 0;
+    margin-right: 0; }
+  [class*="col-"] .container-fluid {
+    margin: 0;
+    padding: 0; }
+
+body {
+  font-family: "Roboto", sans-serif; }
+
+.nav {
+  margin-bottom: -5px;
+  background-color: white;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-bottom: 2px solid white; }
+  .nav ul {
+    border: 2px solid black; }
+  .nav a {
+    font-weight: 700;
+    color: black; }
+
+.nav li {
+  padding: 20px; }
+  .nav li a:hover {
+    color: #d32730;
+    background-color: white;
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    text-decoration: none; }
+
+.logo .logo-heading, .logo .logo-subheading {
+  display: block; }
+
+.logo .logo-heading {
+  color: #d32730;
+  font-size: 18px; }
+
+.logo .logo-subheading {
+  color: #797979;
+  text-align: center;
+  font-size: 12px;
+  margin-top: -2px; }
+
+img {
+  width: 100%;
+  border: 2px solid white; }
+
+.top-img {
+  border-top: none; }
+
+.center-row {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex; }
+  .center-row .center-tile {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background-color: #f1c40f;
+    margin: 2px; }
+    .center-row .center-tile h1 {
+      color: white;
+      font-size: 52px; }

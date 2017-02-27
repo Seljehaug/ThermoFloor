@@ -1,0 +1,86 @@
+/* Imports */
+// @import "normalize"
+
+/* Variables */
+$red: #d32730
+$black: black
+$white: white
+$light-black: #797979
+
+/* Removing the space around Bootstrap columns */
+[class*="col-"]
+	padding-left: 0
+	padding-right: 0
+
+	.row
+		margin-left: 0
+		margin-right: 0
+
+	.container-fluid
+		margin: 0
+		padding: 0
+
+body
+	font-family: "Roboto", sans-serif
+
+.nav
+	margin-bottom: -5px
+	background-color: $white
+	display: flex
+	justify-content: center
+	align-items: center
+	border-bottom: 2px solid $white
+	ul
+		border: 2px solid $black
+		li
+			// padding: 10px
+
+	a
+		font-weight: 700
+		color: $black
+
+.nav
+	li
+		padding: 20px
+		&:hover
+			// background-color: red
+		a:hover
+			// background-color: $black
+			color: $red
+			background-color: $white
+			transform: scale(1.1)
+			text-decoration: none
+
+.logo
+	// padding: 5px 20px
+	.logo-heading, .logo-subheading
+		display: block
+	.logo-heading
+		color: $red
+		font-size: 18px
+	.logo-subheading
+		color: $light-black
+		text-align: center
+		font-size: 12px
+		margin-top: -2px
+
+img
+	width: 100%
+	border: 2px solid $white
+
+.top-img
+	border-top: none
+
+.center-row
+	display: flex
+	.center-tile
+		display: flex
+		justify-content: center
+		align-items: center
+		// background-image: url("http://placehold.it/600x200/f1c40f/fff")
+		background-color: #f1c40f
+		// margin matches border for the other img tiles
+		margin: 2px
+		h1
+			color: $white
+			font-size: 52px

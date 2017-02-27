@@ -1,9 +1,57 @@
 doctype html
 html(lang="en")
 	head
-		title GitHub Test
+		title Thermo Floor
 		meta(charset="utf-8")
-		meta(name='viewport', content='width=device-width, initial-scale=1')
-		
+		meta(name="viewport", content="width = device-width, initial-scale = 1")
+		// Bootstrap v3.3.7 CSS
+		link(rel="stylesheet", href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css", integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u", crossorigin="anonymous")
+		// jQuery 3.1.1 
+		script(src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js")
+		// Bootstrap v3.3.7 compiled and minified JavaScript
+		script(src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js", integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa", crossorigin="anonymous")
+		// Open Sans font
+		link(href="https://fonts.googleapis.com/css?family=Roboto:300,400,700" rel="stylesheet")
+		// Custom styles
+		link(rel="stylesheet", type="text/css", href="css/styles.css")
+
 	body
-		p Hello World
+		.container-fluid
+			.row
+				.col-xs-12
+					ul.nav
+						li(role="presentation").active
+							a(href="#") Varmeløsninger
+						li(role='presentation')
+							a(href="#") Varmestyring
+						li(role="presentation")
+							//- img(src="http://placehold.it/25x25")
+							.logo
+								a
+									span.logo-heading ThermoFloor
+									span.logo-subheading Inn i varmen 
+						li(role="presentation")
+							a(href="#") Smarthus
+						li(role="presentation")
+							a(href="#") Kontakt 
+							
+			.row
+				.col-md-6
+					img(src="http://placehold.it/600x200/2ecc71/fff", alt="Placeholder image").img-responsive.top-img
+				.col-md-6
+					img(src="http://placehold.it/600x200/3498db/fff", alt="Placeholder image").img-responsive.top-img
+			
+			.row.center-row
+				.col-md-3
+					img(src="http://placehold.it/300x200/e74c3c/fff", alt="Placeholder image").img-responsive
+				.col-md-6.center-tile
+					//- img(src="http://placehold.it/600x200/f1c40f/fff", alt="Placeholder image").img-responsive.center-img
+					h1 Inn i varmen
+					
+				.col-md-3
+					img(src="http://placehold.it/300x200/9b59b6/fff", alt="Placeholder image").img-responsive
+			
+			.row
+				.col-md-12
+					img(src="http://placehold.it/1000x200/c4004d/fff", alt="Placeholder image").img-responsive
+				
