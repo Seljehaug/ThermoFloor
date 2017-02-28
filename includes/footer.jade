@@ -1,0 +1,73 @@
+.row
+	footer#footer
+		#sosiale-medier.col-sm-4
+			h3 Sosiale Medier
+				.item-list
+					.item
+						.icon 
+							include svg-icons/facebook-icon.jade
+						.text 
+							span 
+								a(href="https://www.facebook.com/ThermoFloorAS") Facebook 
+								
+					.item
+						.icon
+							include svg-icons/blogg-icon.jade
+						.text 
+							span 
+								a(href="http://innivarmen.no/") Blogg
+								
+					.item
+						.icon
+							include svg-icons/youtube-icon.jade
+						.text
+							span
+								a(href="https://www.youtube.com/channel/UCfpUSmbXVJK5GPEQq9_OLtg") YouTube
+								
+					.item
+						.icon
+							include svg-icons/instagram-icon.jade
+						.text
+							span
+								a(href="https://www.instagram.com/thermofloor/") Instagram
+								
+		
+		#kontakt.col-sm-4
+			h3 Kontakt
+				.item-list
+					.item
+						// Icon made by Chanut Is Industries from www.flaticon.com 
+						.icon 
+							include svg-icons/map-pin-icon.jade
+						.text 
+							span Østre Totenvei 24, 2816 Gjøvik
+							
+					.item
+						// Icon made by SimpleIcon from www.flaticon.com 
+						.icon
+							include svg-icons/mail-icon.jade
+						.text
+							span post@thermo-floor.no
+					
+					.item
+						// Icon made by Chanut Is Industries from www.flaticon.com 
+						.icon
+							include svg-icons/phone-icon.jade
+						.text 
+							span 61 18 77 77
+								
+					.item
+						// Icon made by Yannick from www.flaticon.com 
+						.icon
+							include svg-icons/fax-icon.jade
+						.text
+							span 61 18 77 70 
+							
+		#nyhetsbrev.col-sm-4
+			h3 Nyhetsbrev
+			p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.
+				| Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
+			// action specifies the page which this submit should be sent to
+			form#newsletter-form(name='newsletter-form', action='#', method='post')
+				input#input-email(type='email', name='email', placeholder='example@epost.com')
+				button#submit-newsletter-form(type='submit', name='submit-btn') Send

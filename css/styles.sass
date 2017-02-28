@@ -6,6 +6,9 @@ $red: #d32730
 $black: black
 $white: white
 $light-black: #797979
+$footer: #333f48
+
+/* ----------------------------------General stuff ------------------------- */
 
 /* Removing the space around Bootstrap columns */
 [class*="col-"]
@@ -23,48 +26,83 @@ $light-black: #797979
 body
 	font-family: "Roboto", sans-serif
 
-// .nav
-// 	margin-bottom: -5px
-// 	background-color: $white
-// 	display: flex
-// 	justify-content: center
-// 	align-items: center
-// 	border-bottom: 2px solid $white
-// 	ul
-// 		border: 2px solid $black
-// 		li
-// 			// padding: 10px
-//
-// 	a
-// 		font-weight: 700
-// 		color: $black
-//
-// .nav
-// 	li
-// 		padding: 20px
-// 		&:hover
-// 			// background-color: red
-// 		a:hover
-// 			// background-color: $black
-// 			color: $red
-// 			background-color: $white
-// 			transform: scale(1.1)
-// 			text-decoration: none
-//
-// .logo
-// 	// padding: 5px 20px
-// 	.logo-heading, .logo-subheading
-// 		display: block
-// 	.logo-heading
-// 		color: $red
-// 		font-size: 18px
-// 	.logo-subheading
-// 		color: $light-black
-// 		text-align: center
-// 		font-size: 12px
-// 		margin-top: -2px
+/* ------------------------- Footer styles ----------------------------------- */
+#footer
+	background-color: $footer
+	color: $white
+	// padding: 20px
+	min-height: 220px
 
+	.item-list
+		margin-top: 10px
 
+		.item
+			// display: flex
+			// align-items: center
+
+			.icon
+				// height: 20px
+				// width: 20px
+				display: inline-block
+				padding: 5px 5px 0 0
+				// img
+				// 	height: 20px
+				// 	width: 20px
+				svg
+					height: 25px
+					width: 25px
+					vertical-align: middle
+					path
+						fill: white
+
+			.text
+				display: inline
+				span, span a
+					font-size: 14px
+					color: $white
+
+	#sosiale-medier, #kontakt, #nyhetsbrev
+		// padding: 10px
+		padding-left: 20px
+		// border-right: 2px solid white
+		min-height: 200px
+	#nyhetsbrev
+		padding-right: 20px
+		input[type="email"]
+			background-color: $white
+			border: none
+			border-radius: 5px
+			padding: 5px
+			color: black
+			font-weight: 700
+			font-size: 12px
+			min-width: 50px
+			width: 60%
+			&:focus
+				outline: none
+				box-shadow: 0 0 2pt 1pt $black
+
+			&::placeholder
+				// border: 2px solid $footer
+				color: $footer
+				font-weight: 700
+
+		button
+			display: block
+			margin-top: 10px
+			padding: 2px 8px 2px 8px
+			border-radius: 5px
+			background-color: $white
+			color: $footer
+			border: none
+			font-weight: 700
+			&:hover
+				// transform: scale(1.1)
+				background-color: #13cc84
+				color: $white
+/* ------------------------- End of footer styles ----------------------------------- */
+
+/* ------------------------- Navbar styles ----------------------------------- */
 // Bootstrap navbar stylings
 .navbar
 	margin-left: -15px
@@ -103,11 +141,12 @@ body
 				font-size: 12px
 				margin-top: -2px
 
-
 // End of bootstrap navbar stylings
+/* ------------------------- Enf of Navbar styles ----------------------------------- */
+
 img
 	width: 100%
-	border: 2px solid $white
+	// border: 2px solid $white
 
 .top-img
 	border-top: none
@@ -123,7 +162,7 @@ img
 		// background-image: url("http://placehold.it/600x200/f1c40f/fff")
 		background-color: #f1c40f
 		// margin matches border for the other img tiles
-		margin: 2px
+		// margin: 2px
 		h1
 			color: $white
 			font-size: 52px
