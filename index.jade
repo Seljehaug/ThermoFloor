@@ -17,39 +17,8 @@ html(lang="en")
 
 	body
 		.container-fluid
-			// Navbar
-			nav.navbar.navbar-default
-				.container-fluid
-					.navbar-header
-						// Button for toggling menu on mobile
-						button.navbar-toggle.collapsed(type='button', data-toggle='collapse', data-target='#bs-example-navbar-collapse-1', aria-expanded='false')
-							span.sr-only Toggle navigation
-							span.icon-bar
-							span.icon-bar
-							span.icon-bar
-					
-					// The menu itself 
-					#bs-example-navbar-collapse-1.collapse.navbar-collapse
-						ul.nav.navbar-nav
-							//- li.active
-							//- 	a(href='#')
-							//- 		| Link 
-							//- 		span.sr-only (current)
-							li
-								a(href='#') Varmeløsninger
-							li
-								a(href='#') Varmestyring
-							li(role="presentation")
-								//- img(src="http://placehold.it/25x25")
-								.logo
-									a(href='#')
-										span.logo-heading ThermoFloor
-										span.logo-subheading Inn i varmen 
-							li
-								a(href='#') Smarthus
-							li
-								a(href='#') Kontakt
-
+			include includes/navbar.jade
+			
 			.row
 				.col-md-6
 					img(src="http://placehold.it/600x200/2ecc71/fff", alt="Placeholder image").img-responsive.top-img
