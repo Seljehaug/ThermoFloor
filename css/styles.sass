@@ -104,6 +104,11 @@ body
 
 /* ------------------------- Navbar styles ----------------------------------- */
 // Bootstrap navbar stylings
+.navbar-default .navbar-toggle
+	position: absolute
+	left: 0
+	margin-left: 20px
+
 .navbar
 	margin-left: -15px
 	margin-right: -15px
@@ -140,6 +145,28 @@ body
 				text-align: center
 				font-size: 12px
 				margin-top: -2px
+
+@media (max-width: 767px)
+	.navbar-collapse
+		padding: 0
+	.navbar .navbar-nav
+		flex-direction: column
+		padding: 0
+		width: 100%
+		margin: 0
+		margin-top: 40px
+		li
+			width: 100%
+			margin: 0
+			padding: 0
+			// margin-left: -15px
+			a:hover
+				transform: scale(1.0)
+				background-color: $red
+				color: $white
+
+		.logo
+			display: none
 
 // End of bootstrap navbar stylings
 /* ------------------------- Enf of Navbar styles ----------------------------------- */
