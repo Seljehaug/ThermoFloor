@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* Imports */
 /* Variables */
 /* ----------------------------------General stuff ------------------------- */
@@ -203,3 +204,8 @@ body {
   align-items: center; }
 
 /*------------- END OF INDEX PAGE -------------------------------*/
+/*-------------- VARMELØSNINGER PAGE -------------------------------- */
+#varmelosninger img {
+  width: 100%; }
+
+/*-------------- END OF VARMELØSNINGER PAGE --------------------------------* */
