@@ -122,11 +122,12 @@ body
 	margin-top: 0
 	.navbar-nav
 		display: flex
-		justify-content: center
+		justify-content: space-between
 		align-items: center
 		width: 100%
 		li
 			padding: 10px
+			text-transform: uppercase
 			a
 				color: $black
 				font-weight: 700
@@ -137,6 +138,21 @@ body
 					text-decoration: none
 		.logo
 			max-width: 250px
+
+.shopping-cart
+	svg
+		height: 20px
+		width: 20px
+		vertical-align: middle
+		path
+			fill: $black
+
+		#shopping-cart-open
+			.dropdown.menu
+				position: relative
+				display: inline-block
+				vertical-align: middle
+
 
 @media (max-width: 767px)
 	.navbar-collapse
@@ -160,18 +176,7 @@ body
 		.logo
 			display: none
 
-.navbar .navbar-nav
-	justify-content: space-between
-	li
-		text-transform: uppercase
 
-.shopping-cart
-	svg
-		height: 20px
-		width: 20px
-		vertical-align: middle
-		path
-			fill: $black
 
 
 

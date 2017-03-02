@@ -28,4 +28,9 @@ nav.navbar.navbar-default
 					a(href='#') Kontakt
 				li.shopping-cart
 					// Icon made by Designerz Base from www.flaticon.com
-					include svg-icons/shopping-cart-icon.jade
+					.dropdown
+						button#shopping-cart-dropdown.btn.btn-default.dropdown-toggle(type="button", data-toggle="dropdown", aria-haspopup="true", aria-expanded="true")
+							include svg-icons/shopping-cart-icon.jade
+						ul#shopping-cart-open.dropdown-menu(aria-labelledby="shopping-cart-dropdown")
+							li
+								a(href="#") Nettbutikk kun for innstallatører
