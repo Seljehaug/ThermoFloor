@@ -147,13 +147,6 @@ body
 		path
 			fill: $black
 
-		#shopping-cart-open
-			.dropdown.menu
-				position: relative
-				display: inline-block
-				vertical-align: middle
-
-
 @media (max-width: 767px)
 	.navbar-collapse
 		padding: 0
@@ -172,17 +165,13 @@ body
 				transform: scale(1.0)
 				background-color: $red
 				color: $white
-
 		.logo
 			display: none
-
-
-
-
 
 // End of bootstrap navbar stylings
 /* ------------------------- Enf of Navbar styles ----------------------------------- */
 
+/* -------------------------- Main content ------------------------------------------*/
 img
 	width: 100%
 	// border: 2px solid $white
@@ -201,9 +190,6 @@ img
 		background-image: url("http://placehold.it/600x200/f1c40f/fff")
 		background-image: url("../img/imgindex4.jpg")
 		background-size: cover
-		// background-color: #f1c40f
-		// margin matches border for the other img tiles
-		// margin: 2px
 		h1
 			color: $white
 			// font-size: 52px
@@ -218,3 +204,11 @@ img
 			font-size: 58px
 			display: block
 			margin-right: -40px
+
+/*------------------- End of main content -----------------------------------*/
+
+/* -------------------- Produktkatalog --------------------------------------*/
+#produktkatalog
+	#produktkatalog-grid
+		display: flex
+		align-items: center
