@@ -178,4 +178,14 @@ img {
     background-image: url("../img/imgindex4.jpg");
     background-size: cover; }
     .center-row .center-tile h1 {
-      font-size: 52px; }
+      color: white; }
+      .center-row .center-tile h1 span {
+        display: block; }
+    .center-row .center-tile .heading {
+      font-size: 58px;
+      display: block;
+      margin-left: -40px; }
+    .center-row .center-tile .subheading {
+      font-size: 58px;
+      display: block;
+      margin-right: -40px; }
