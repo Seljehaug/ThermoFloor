@@ -164,3 +164,18 @@ img {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex; }
+  .center-row .center-tile {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background-image: url("http://placehold.it/600x200/f1c40f/fff");
+    background-image: url("../img/imgindex4.jpg");
+    background-size: cover; }
+    .center-row .center-tile h1 {
+      font-size: 52px; }
