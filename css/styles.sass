@@ -129,14 +129,24 @@ body
 					text-decoration: none
 		.logo
 			max-width: 250px
+			#logo-link:hover
+				transform: scale(1.0)
 
-.shopping-cart
-	svg
-		height: 20px
-		width: 20px
-		vertical-align: middle
-		path
-			fill: $black
+		.logo-link-mobile
+			display: none
+
+	.shopping-cart
+		svg
+			height: 20px
+			width: 20px
+			vertical-align: middle
+			path
+				fill: $black
+
+@media (min-width: 768px)
+	/* Option in the menu, only visible when shopping-cart icon is not*/
+	#nettbutikk-hidden
+		display: none
 
 @media (max-width: 767px)
 	.navbar-collapse
@@ -157,7 +167,20 @@ body
 				background-color: $red
 				color: $white
 		.logo
-			display: none
+			max-width: 100%
+			.logo-img
+				display: none
+			.logo-link-mobile
+				display: block
+
+	/* Option in the menu, only visible when shopping-cart icon is not*/
+	#nettbutikk-hidden
+		display: block
+
+	.shopping-cart
+		// margin-left: 30px!important
+		// margin-bottom: 10px!important
+		display: none!important
 
 // End of bootstrap navbar stylings
 /* ------------------------- Enf of Navbar styles ----------------------------------- */
@@ -215,3 +238,9 @@ body
 	img
 		width: 100%
 /*-------------- END OF VARMELØSNINGER PAGE --------------------------------* */
+
+/*-------------- SMARTHUS PAGE -------------------------------- */
+#smarthus
+	img
+		width: 100%
+/*-------------- END OF SMARTHUS PAGE --------------------------------* */

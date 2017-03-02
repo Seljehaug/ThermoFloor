@@ -20,13 +20,16 @@ nav.navbar.navbar-default
 					a(href="varmelosninger.html") Varmeløsninger
 				li
 					a(href="varmestyring.html") Varmestyring
-				li(role="presentation")
-					a(href="index.html")
-						img(src="img/logo.png").logo
+				li(role="presentation").logo
+					a(href="index.html")#logo-link
+						img(src="img/logo.png").logo-img
+						span.logo-link-mobile Hovedsiden
 				li
 					a(href="smarthus.html") Smarthus
 				li
 					a(href="#") Kontakt
+				li#nettbutikk-hidden
+					a(href="http://butikk.thermo-floor.no/") Nettbutikk kun for innstallatører
 				li.shopping-cart
 					// Icon made by Designerz Base from www.flaticon.com
 					.dropdown

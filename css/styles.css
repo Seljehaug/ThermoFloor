@@ -124,13 +124,23 @@ body {
           text-decoration: none; }
     .navbar .navbar-nav .logo {
       max-width: 250px; }
+      .navbar .navbar-nav .logo #logo-link:hover {
+        -webkit-transform: scale(1);
+        -ms-transform: scale(1);
+        transform: scale(1); }
+    .navbar .navbar-nav .logo-link-mobile {
+      display: none; }
+  .navbar .shopping-cart svg {
+    height: 20px;
+    width: 20px;
+    vertical-align: middle; }
+    .navbar .shopping-cart svg path {
+      fill: black; }
 
-.shopping-cart svg {
-  height: 20px;
-  width: 20px;
-  vertical-align: middle; }
-  .shopping-cart svg path {
-    fill: black; }
+@media (min-width: 768px) {
+  /* Option in the menu, only visible when shopping-cart icon is not*/
+  #nettbutikk-hidden {
+    display: none; } }
 
 @media (max-width: 767px) {
   .navbar-collapse {
@@ -154,7 +164,16 @@ body {
         background-color: #d32730;
         color: white; }
     .navbar .navbar-nav .logo {
-      display: none; } }
+      max-width: 100%; }
+      .navbar .navbar-nav .logo .logo-img {
+        display: none; }
+      .navbar .navbar-nav .logo .logo-link-mobile {
+        display: block; }
+  /* Option in the menu, only visible when shopping-cart icon is not*/
+  #nettbutikk-hidden {
+    display: block; }
+  .shopping-cart {
+    display: none !important; } }
 
 /* ------------------------- Enf of Navbar styles ----------------------------------- */
 /* -------------------------- INDEX PAGE------------------------------------------*/
@@ -214,3 +233,8 @@ body {
   width: 100%; }
 
 /*-------------- END OF VARMELØSNINGER PAGE --------------------------------* */
+/*-------------- SMARTHUS PAGE -------------------------------- */
+#smarthus img {
+  width: 100%; }
+
+/*-------------- END OF SMARTHUS PAGE --------------------------------* */
