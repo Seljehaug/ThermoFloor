@@ -34,24 +34,15 @@ body
 #footer
 	background-color: $footer
 	color: $white
-	// padding: 20px
 	min-height: 220px
 
 	.item-list
 		margin-top: 10px
 
 		.item
-			// display: flex
-			// align-items: center
-
 			.icon
-				// height: 20px
-				// width: 20px
 				display: inline-block
 				padding: 5px 5px 0 0
-				// img
-				// 	height: 20px
-				// 	width: 20px
 				svg
 					height: 25px
 					width: 25px
@@ -171,44 +162,44 @@ body
 // End of bootstrap navbar stylings
 /* ------------------------- Enf of Navbar styles ----------------------------------- */
 
-/* -------------------------- Main content ------------------------------------------*/
-img
-	width: 100%
-	// border: 2px solid $white
+/* -------------------------- INDEX PAGE------------------------------------------*/
+#index
+	img
+		width: 100%
+		// border: 2px solid $white
 
-.top-img
-	border-top: none
+	.top-img
+		border-top: none
 
-.center-row
-	display: flex
-	// [class*="col-"]
-	// 	display: flex
-	.center-tile
+	.center-row
 		display: flex
-		justify-content: center
-		align-items: center
-		background-image: url("http://placehold.it/600x200/f1c40f/fff")
-		background-image: url("../img/imgindex4.jpg")
-		background-size: cover
-		h1
-			color: $white
-			// font-size: 52px
-			span
+		// [class*="col-"]
+		// 	display: flex
+		.center-tile
+			display: flex
+			justify-content: center
+			align-items: center
+			background-image: url("http://placehold.it/600x200/f1c40f/fff")
+			background-image: url("../img/imgindex4.jpg")
+			background-size: cover
+			h1
+				color: $white
+				// font-size: 52px
+				span
+					display: block
+			.heading
+				font-size: 48px
 				display: block
-		.heading
-			font-size: 48px
-			display: block
-			margin-left: -40px
-			margin-bottom: -20px
-		.subheading
-			font-size: 58px
-			display: block
-			margin-right: -40px
+				margin-left: -40px
+				margin-bottom: -20px
+			.subheading
+				font-size: 58px
+				display: block
+				margin-right: -40px
 
-/*------------------- End of main content -----------------------------------*/
+	#produktkatalog
+		#produktkatalog-grid
+			display: flex
+			align-items: center
 
-/* -------------------- Produktkatalog --------------------------------------*/
-#produktkatalog
-	#produktkatalog-grid
-		display: flex
-		align-items: center
+/*------------- END OF INDEX PAGE -------------------------------*/
