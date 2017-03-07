@@ -199,32 +199,46 @@ body
 		// [class*="col-"]
 		// 	display: flex
 		.center-tile
+			position: relative
 			display: flex
-			justify-content: center
 			align-items: center
-			background-image: url("http://placehold.it/600x200/f1c40f/fff")
-			background-image: url("../img/imgindex4.jpg")
-			background-size: cover
+			justify-content: center
+			.index-main-img-mobile
+				display: none
+			img
+				position: absolute
 			h1
+				position: absolute
+				margin: 0
 				color: $white
 				// font-size: 52px
 				span
 					display: block
-			.heading
-				font-size: 48px
-				display: block
-				margin-left: -40px
-				margin-bottom: -20px
-			.subheading
-				font-size: 58px
-				display: block
-				margin-right: -40px
+				.heading
+					font-size: 48px
+					display: block
+					margin-left: -40px
+					margin-bottom: -20px
+				.subheading
+					font-size: 58px
+					display: block
+					margin-right: -40px
 
 	#produktkatalog
 		#produktkatalog-grid
 			display: flex
 			align-items: center
 
+@media (max-width: 767px)
+	#index
+		.img-grid img
+			display: none
+		.center-row .center-tile
+			.index-main-img-mobile
+				display: block
+			img
+				position: static
+				display: none
 /*------------- END OF INDEX PAGE -------------------------------*/
 
 /*-------------- VARMELØSNINGER PAGE -------------------------------- */

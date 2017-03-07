@@ -19,38 +19,36 @@ html(lang="en")
 		.container-fluid
 			include includes/navbar.jade
 			
-			.row
-				.col-md-6
-					//- img(src="http://placehold.it/600x200/2ecc71/fff", alt="Placeholder image").img-responsive.top-img
-					img(src="img/imgindex1.jpg", alt="Index image 1").img-responsive-img
-				.col-md-6
-					//- img(src="http://placehold.it/600x200/3498db/fff", alt="Placeholder image").img-responsive.top-img
-					img(src="img/imgindex2.jpg", alt="Index image 2").img-responsive-img
-			
-			.row.center-row
-				.col-md-3
-					//- img(src="http://placehold.it/300x200/e74c3c/fff", alt="Placeholder image").img-responsive
-					img(src="img/imgindex3.jpg", alt="Index image 3").img-responsive-img
+			.img-grid
+				.row
+					.col-sm-6
+						img(src="img/imgindex1.jpg", alt="Index image 1").img-responsive-img
+					.col-sm-6
+						img(src="img/imgindex2.jpg", alt="Index image 2").img-responsive-img
+				
+				.row.center-row
+					.col-sm-3
+						img(src="img/imgindex3.jpg", alt="Index image 3").img-responsive-img
 
-				.col-md-6.center-tile
-					h1
-						span.heading Inn i 
-						span.subheading varmen
-				.col-md-3
-					//- img(src="http://placehold.it/300x200/9b59b6/fff", alt="Placeholder image").img-responsive
-					img(src="img/imgindex5.jpg", alt="Index image 5").img-responsive-imgS
-			
-			.row
-				.col-md-12
-					//- img(src="http://placehold.it/1000x200/c4004d/fff", alt="Placeholder image").img-responsive
-					img(src="img/imgindex6.jpg", alt="Index image 6").img-responsive-img
+					.col-sm-6.col-xs-12.center-tile
+						img(src="img/imgindex4.jpg")
+						img(src="img/main-img-mobile.jpg").index-main-img-mobile
+						h1
+							span.heading Inn i 
+							span.subheading varmen
+					.col-sm-3
+						img(src="img/imgindex5.jpg", alt="Index image 5").img-responsive-img
+				
+				.row
+					.col-sm-12
+						img(src="img/imgindex6.jpg", alt="Index image 6").img-responsive-img
 			
 			.row
 				section#produktkatalog
 					.col-md-12#produktkatalog-grid
 						.col-md-6
 							a(href="http://ipaper.ipapercms.dk/ThermoFloor/Katalog/", title="Thermo Floor Produktkatalog 2017", target="_blank")
-								img(src="img/produktkatalog2.png", alt="bilde av produktkatalog")
+								img(src="img/produktkatalog2.png", alt="bilde av produktkatalog").img-responsive-img
 						.col-md-6
 							h1 Sjekk ut vår produktkatalog for 2017					
 			
