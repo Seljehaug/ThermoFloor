@@ -1,6 +1,7 @@
 // Navbar
 nav.navbar.navbar-default
 	.container-fluid
+		img(src="img/logo.png").logo-img-mobile
 		.navbar-header
 			// Button for toggling menu on mobile
 			button.navbar-toggle.collapsed(type='button', data-toggle='collapse', data-target='#bs-example-navbar-collapse-1', aria-expanded='false')
@@ -23,7 +24,9 @@ nav.navbar.navbar-default
 				li(role="presentation").logo
 					a(href="index.html")#logo-link
 						img(src="img/logo.png").logo-img
-						span.logo-link-mobile Hovedsiden
+						//- span.logo-link-mobile Hovedsiden
+				li.logo-link-mobile
+					a(href="index.html") Hovedsiden
 				li
 					a(href="smarthus.html") Smarthus
 				li
@@ -33,7 +36,7 @@ nav.navbar.navbar-default
 				li.shopping-cart
 					// Icon made by Designerz Base from www.flaticon.com
 					.dropdown
-						button#shopping-cart-dropdown.btn.btn-default.dropdown-toggle(type="button", data-toggle="dropdown", aria-haspopup="true", aria-expanded="true")
+						button#shopping-cart-dropdown.btn.btn-default.dropdown-toggle(type="button", data-hover="dropdown", data-delay="100", aria-haspopup="true", aria-expanded="true")
 							include svg-icons/shopping-cart-icon.jade
 						ul.dropdown-menu.pull-right(aria-labelledby="shopping-cart-dropdown")
 							li

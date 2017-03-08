@@ -128,21 +128,48 @@ body {
         -webkit-transform: scale(1);
         -ms-transform: scale(1);
         transform: scale(1); }
+    .navbar .navbar-nav .logo-img {
+      max-width: 100%; }
     .navbar .navbar-nav .logo-link-mobile {
       display: none; }
-  .navbar .shopping-cart svg {
-    height: 20px;
-    width: 20px;
-    vertical-align: middle; }
-    .navbar .shopping-cart svg path {
-      fill: black; }
+  .navbar .shopping-cart .dropdown .dropdown-menu li a:hover {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1); }
+  .navbar .shopping-cart .dropdown .btn-default {
+    border: none; }
+  .navbar .shopping-cart .dropdown button {
+    background-color: white; }
+    .navbar .shopping-cart .dropdown button svg {
+      height: 20px;
+      width: 20px;
+      vertical-align: middle; }
+    .navbar .shopping-cart .dropdown button:hover {
+      -webkit-transform: scale(1.2);
+      -ms-transform: scale(1.2);
+      transform: scale(1.2);
+      background-color: white; }
+  .navbar .shopping-cart .dropdown .btn-default.focus, .navbar .shopping-cart .dropdown .btn-default:focus {
+    background-color: white;
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2); }
 
 @media (min-width: 768px) {
+  .logo-img-mobile {
+    display: none; }
   /* Option in the menu, only visible when shopping-cart icon is not*/
   #nettbutikk-hidden {
     display: none; } }
 
 @media (max-width: 767px) {
+  .logo-img-mobile {
+    position: absolute;
+    max-width: 150px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    margin-top: 10px; }
   .navbar-collapse {
     padding: 0; }
   .navbar .navbar-nav {
@@ -164,11 +191,9 @@ body {
         background-color: #d32730;
         color: white; }
     .navbar .navbar-nav .logo {
-      max-width: 100%; }
-      .navbar .navbar-nav .logo .logo-img {
-        display: none; }
-      .navbar .navbar-nav .logo .logo-link-mobile {
-        display: block; }
+      display: none; }
+    .navbar .navbar-nav .logo-link-mobile {
+      display: block; }
   /* Option in the menu, only visible when shopping-cart icon is not*/
   #nettbutikk-hidden {
     display: block; }
@@ -177,7 +202,7 @@ body {
 
 /* ------------------------- Enf of Navbar styles ----------------------------------- */
 /* -------------------------- INDEX PAGE------------------------------------------*/
-#index img {
+#index .img-grid img {
   width: 100%; }
 
 #index .top-img {
@@ -225,6 +250,11 @@ body {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center; }
+  #index #produktkatalog #produktkatalog-grid img {
+    width: 100%; }
+
+#index #artikkel-liste img {
+  width: 100%; }
 
 @media (max-width: 767px) {
   #index .img-grid img {

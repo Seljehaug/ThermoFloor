@@ -132,23 +132,50 @@ body
 			#logo-link:hover
 				transform: scale(1.0)
 
+		.logo-img
+			max-width: 100%
+
 		.logo-link-mobile
 			display: none
 
 	.shopping-cart
-		svg
-			height: 20px
-			width: 20px
-			vertical-align: middle
-			path
-				fill: $black
+		.dropdown
+			.dropdown-menu
+				li a:hover
+					transform: scale(1.0)
+
+			.btn-default
+				border: none
+			button
+				background-color: $white
+				svg
+					height: 20px
+					width: 20px
+					vertical-align: middle
+					// margin-top: 5px
+				&:hover
+					transform: scale(1.2)
+					background-color: $white
+			.btn-default.focus, .btn-default:focus
+				background-color: $white
+				transform: scale(1.2)
 
 @media (min-width: 768px)
+	.logo-img-mobile
+		display: none
 	/* Option in the menu, only visible when shopping-cart icon is not*/
 	#nettbutikk-hidden
 		display: none
 
 @media (max-width: 767px)
+	.logo-img-mobile
+		position: absolute
+		max-width: 150px
+		left: 0
+		right: 0
+		margin: 0 auto
+		margin-top: 10px
+
 	.navbar-collapse
 		padding: 0
 	.navbar .navbar-nav
@@ -167,11 +194,9 @@ body
 				background-color: $red
 				color: $white
 		.logo
-			max-width: 100%
-			.logo-img
-				display: none
-			.logo-link-mobile
-				display: block
+			display: none
+		.logo-link-mobile
+			display: block
 
 	/* Option in the menu, only visible when shopping-cart icon is not*/
 	#nettbutikk-hidden
@@ -187,7 +212,7 @@ body
 
 /* -------------------------- INDEX PAGE------------------------------------------*/
 #index
-	img
+	.img-grid img
 		width: 100%
 		// border: 2px solid $white
 
@@ -228,6 +253,12 @@ body
 		#produktkatalog-grid
 			display: flex
 			align-items: center
+			img
+				width: 100%
+
+	#artikkel-liste
+		img
+			width: 100%
 
 @media (max-width: 767px)
 	#index
