@@ -24,7 +24,9 @@ body {
 #footer {
   background-color: #333f48;
   color: white;
-  min-height: 220px; }
+  min-height: 220px;
+  padding-left: 120px;
+  padding-right: 120pxs; }
   #footer .item-list {
     margin-top: 10px; }
     #footer .item-list .item .icon {
