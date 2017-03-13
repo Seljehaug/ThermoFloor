@@ -26,7 +26,7 @@ body {
   color: white;
   min-height: 220px;
   padding-left: 120px;
-  padding-right: 120pxs; }
+  padding-right: 120px; }
   #footer .item-list {
     margin-top: 10px; }
     #footer .item-list .item .icon {
@@ -48,6 +48,8 @@ body {
     min-height: 200px; }
   #footer #nyhetsbrev {
     padding-right: 20px; }
+    #footer #nyhetsbrev p {
+      max-width: 200px; }
     #footer #nyhetsbrev input[type="email"] {
       background-color: white;
       border: none;

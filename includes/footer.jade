@@ -31,6 +31,14 @@
 							span
 								a(href="https://www.instagram.com/thermofloor/") Instagram
 								
+		#nyhetsbrev.col-sm-4
+			h3 Nyhetsbrev
+			p Hold deg oppdatert. Skriv inn din epost-adresse 
+				| for å få tilsendt månedlige nyhetsbrev. 
+			// action specifies the page which this submit should be sent to
+			form#newsletter-form(name='newsletter-form', action='#', method='post')
+				input#input-email(type='email', name='email', placeholder='example@epost.com')
+				button#submit-newsletter-form(type='submit', name='submit-btn') Send	
 		
 		#kontakt.col-sm-4
 			h3 Kontakt
@@ -62,12 +70,3 @@
 							include svg-icons/fax-icon.jade
 						.text
 							span 61 18 77 70
-							
-		#nyhetsbrev.col-sm-4
-			h3 Nyhetsbrev
-			p Hold deg oppdatert. Skriv inn din epost-adresse 
-				| for å få tilsendt månedlige nyhetsbrev. 
-			// action specifies the page which this submit should be sent to
-			form#newsletter-form(name='newsletter-form', action='#', method='post')
-				input#input-email(type='email', name='email', placeholder='example@epost.com')
-				button#submit-newsletter-form(type='submit', name='submit-btn') Send
