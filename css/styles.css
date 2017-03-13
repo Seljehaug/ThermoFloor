@@ -132,10 +132,16 @@ body {
       max-width: 100%; }
     .navbar .navbar-nav .logo-link-mobile {
       display: none; }
-  .navbar .shopping-cart .dropdown .dropdown-menu li a:hover {
-    -webkit-transform: scale(1);
-    -ms-transform: scale(1);
-    transform: scale(1); }
+  .navbar .shopping-cart .dropdown .dropdown-menu {
+    box-shadow: none;
+    border-radius: 0;
+    border: none;
+    margin-top: 12px;
+    font-size: 13px; }
+    .navbar .shopping-cart .dropdown .dropdown-menu li a:hover {
+      -webkit-transform: scale(1);
+      -ms-transform: scale(1);
+      transform: scale(1); }
   .navbar .shopping-cart .dropdown .btn-default {
     border: none; }
   .navbar .shopping-cart .dropdown button {
