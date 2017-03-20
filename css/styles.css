@@ -393,6 +393,14 @@ body {
   padding: 10px 30px 30px 30px;
   height: 370px; }
 
+#smarthus .articleboxeksempel {
+  padding: 20px 30px;
+  border: solid #ccc 1px;
+  height: 240px; }
+
+#smarthus .borderarticle {
+  padding: 30px; }
+
 #smarthus .smarthusH2 {
   text-align: center;
   margin-top: 5px;
@@ -402,6 +410,10 @@ body {
 #smarthus .backgroundgreysmarthus {
   background-color: #f7f7f7;
   padding: 30px 0px 30px 0px;
+  margin-bottom: 40px; }
+
+#smarthus .backgroundgreyarticle {
+  background-color: #f7f7f7;
   margin-bottom: 40px; }
 
 #smarthus .h3smart {
@@ -414,9 +426,26 @@ body {
 
 #smarthus .psmart {
   line-height: 22px;
-  text-align: center; }
+  text-align: center;
+  margin-bottom: 40px; }
 
 #smarthus .smarthuspadding {
   padding: 30px 30px 0px 30px; }
+
+#smarthus .see-more-link-smarthus {
+  text-align: center; }
+  #smarthus .see-more-link-smarthus a:hover {
+    text-decoration: none; }
+
+#smarthus .buttontext-smarthus {
+  color: #d32730;
+  display: inline;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 0.05em; }
+
+#smarthus .smarthusarticle {
+  padding-top: 30px; }
 
 /*-------------- END OF SMARTHUS PAGE --------------------------------* */
