@@ -273,7 +273,7 @@ body {
         margin-right: -40px; }
 
 #index #produktkatalog #produktkatalog-grid {
-  background-color: #f9f3ee;
+  background-color: #f7f7f7;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
@@ -375,5 +375,14 @@ body {
 /*-------------- SMARTHUS PAGE -------------------------------- */
 #smarthus img {
   width: 100%; }
+
+#smarthus .articlebox {
+  padding: 20px; }
+
+#smarthus .smarthusH2 {
+  text-align: center; }
+
+#smarthus .backgroundgrey {
+  background-color: #f7f7f7; }
 
 /*-------------- END OF SMARTHUS PAGE --------------------------------* */
