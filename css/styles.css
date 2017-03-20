@@ -277,8 +277,8 @@ body {
 
 /*------------- END OF INDEX PAGE -------------------------------*/
 /*-------------- VARMELØSNINGER PAGE -------------------------------- */
-#varmelosninger img {
-  width: 100%; }
+#varmelosninger .img-col img {
+  max-width: 100%; }
 
 /*-------------- END OF VARMELØSNINGER PAGE --------------------------------* */
 /*-------------- VARMELØSNINGER PAGE -------------------------------- */
