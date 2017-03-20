@@ -323,9 +323,18 @@ body {
 
 /*------------- END OF INDEX PAGE -------------------------------*/
 /*-------------- VARMELØSNINGER PAGE -------------------------------- */
-#varmelosninger .img-col {
+#varmelosninger .row {
+  margin-bottom: 50px; }
+
+#varmelosninger .img-col-left {
   padding-left: 20px; }
-  #varmelosninger .img-col img {
+
+#varmelosninger .img-col-right {
+  padding-right: 20px; }
+
+#varmelosninger .img-col-left, #varmelosninger .img-col-right {
+  padding-left: 20px; }
+  #varmelosninger .img-col-left img, #varmelosninger .img-col-right img {
     max-width: 100%; }
 
 #varmelosninger .infotext, #varmelosninger .products {
@@ -337,6 +346,9 @@ body {
   text-transform: uppercase; }
   #varmelosninger h3 span {
     font-weight: bold; }
+
+#varmelosninger .products h3 {
+  margin-bottom: 20px; }
 
 #varmelosninger .products .product {
   display: -webkit-flex;

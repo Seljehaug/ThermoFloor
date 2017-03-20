@@ -19,9 +19,8 @@ html(lang="en")
 		.container-fluid
 			include includes/navbar.jade
 			
-			//- img(src="../img/varmeløsninger.jpg")
 			.row
-				.col-md-4.img-col
+				.col-md-4.img-col-left
 					img(src="img/varmelosninger/artikkel1.jpg")
 				.col-md-4.infotext
 					h3
@@ -34,7 +33,11 @@ html(lang="en")
 					
 					p Med styrt varme i alle rom holder du deg husvarm i egen bolig, og skaper lune omgivelser for deg og resten av familien. 
 					
-					a(href="#") Finn ut mer >>
+					.see-more-link
+						a(href="...", title="Les mer", target="_blank")
+							.buttontext Les mer
+							.arrow &#187;
+							
 				.col-md-4.products
 					h3
 						span Produkter 
@@ -44,21 +47,21 @@ html(lang="en")
 							img(src="img/varmelosninger/tfp_varmekabelmatte.png")
 						.product-text
 							h4 TFP varmekabelmatte
-							p Lavtbyggende varmekabelmatte som parkettunderlag
+							p Lavtbyggende varmekabelmatte som parkettunderlag.
 					
 					.product
 						.product-img
 							img(src="img/varmelosninger/tfp_varmefolie.png")
 						.product-text
 							h4 TFP varmefolie
-							p Komfortvarme og totalvarme i alle tørre rom innendørs
+							p Komfortvarme og totalvarme i alle tørre rom innendørs.
 					
 					.product
 						.product-img
 							img(src="img/varmelosninger/tf_stretch_varmekabelmatte.png")
 						.product-text
 							h4 TF stretch varmekabelmatte
-							p Elastisk Vvarmekabelmatte, kan brukes i alle rom innendørs
+							p Elastisk Vvarmekabelmatte, kan brukes i alle rom innendørs.
 			
 			
 			.row
@@ -72,8 +75,75 @@ html(lang="en")
 					
 					p I tillegg til å effektivisere energibruken med enkel regulering og kort reaksjonsevne, kan du også klargjøre badet med 
 						| mobiltelefonen ved avreise fra hytta. Aldri mer kalde badegulv!
-					a(href="#") Finn ut mer >>
-				.col-md-4.img-col
 				
-				.col-md-4.product-img
+					.see-more-link
+						a(href="...", title="Les mer", target="_blank")
+							.buttontext Les mer
+							.arrow &#187;
+							
+				.col-md-4.products
+					h3
+						span Produkter 
+						| for varme på badet
+					.product
+						.product-img
+							img(src="img/varmelosninger/tf_sticky_mat.png")
+						.product-text
+							h4 TF sticky mat
+							p En lavtbyggende varmekabelmatte.
+					
+					.product
+						.product-img
+							img(src="img/varmelosninger/tf_svk_varmekabel.png")
+						.product-text
+							h4 TF SVK varmekabel
+							p En 2-leder varmekabel som er blyfri og uten farlige giftstoffer.
+					
+					.product
+						.product-img
+							img(src="img/varmelosninger/tf_stretch_varmekabelmatte.png")
+						.product-text
+							h4 TF stretch varmekabelmatte
+							p Elastisk Vvarmekabelmatte, kan brukes i alle rom innendørs
+					
+				.col-md-4.img-col-right
+					img(src="img/varmelosninger/artikkel2.png")
+			
+			.row
+				.col-md-4.img-col-left
+					img(src="img/varmelosninger/artikkel3.jpg")
+				.col-md-4.infotext
+					h3
+						span Varmeløsninger 
+						| utendørs
+					p Velg den "grønne varmen" også utendørs! Med produkter for snøsmelting kan du tenke tilbake på isete
+						| gangveier, snø i oppkjørselen og strekk i ryggen som dårlige minner, og heller se frem mot en vinter
+						| uten såpeglatt holke rundt boligen og issvuller i takrenna.
+					
+					p Snøsmelteautomatikk i grapper og inngangsparti, under asfalt, belegningsstein eller fliser, bidrar til 
+						| komplett hjemmekomfort. Ikke noe vedlikehold, bare lettere og trygg adkomst året rundt.
+					
+					.see-more-link
+						a(href="...", title="Les mer", target="_blank")
+							.buttontext Les mer
+							.arrow &#187;
+							
+				.col-md-4.products
+					h3
+						span Produkter 
+						| for smelting av snø og is
+					.product
+						.product-img
+							img(src="img/varmelosninger/tf_svk_varmekabelmatte.png")
+						.product-text
+							h4 TFP varmekabelmatte
+							p Lavtbyggende varmekabelmatte som parkettunderlag.
+					
+					.product
+						.product-img
+							img(src="img/varmelosninger/tfu_varmekabelmatte.png")
+						.product-text
+							h4 TFP varmefolie
+							p Komfortvarme og totalvarme i alle tørre rom innendørs.
+			
 			include includes/footer.jade
