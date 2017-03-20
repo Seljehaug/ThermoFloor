@@ -367,11 +367,45 @@ body {
       font-weight: 800; }
 
 /*-------------- END OF VARMELØSNINGER PAGE --------------------------------* */
-/*-------------- VARMELØSNINGER PAGE -------------------------------- */
-#varmestyring img {
-  width: 100%; }
+/*-------------- VARMESTYRING PAGE -------------------------------- */
+#varmestyring .background-grey {
+  background-color: #f7f7f7;
+  padding: 30px 0px 30px 0px;
+  margin-bottom: 40px; }
 
-/*-------------- END OF VARMELØSNINGER PAGE --------------------------------* */
+#varmestyring #termostat-info h1 {
+  text-transform: uppercase; }
+
+#varmestyring #termostat-info p {
+  font-size: 18px; }
+
+#varmestyring #termostat-typer {
+  margin-bottom: 40px; }
+  #varmestyring #termostat-typer h2 {
+    text-align: center;
+    margin-top: 5px;
+    color: black;
+    text-transform: uppercase; }
+  #varmestyring #termostat-typer .termostat-illustration {
+    max-width: 80px;
+    margin: 0 auto;
+    display: block; }
+  #varmestyring #termostat-typer .termostat-box {
+    padding: 30px 30px 0 30px; }
+    #varmestyring #termostat-typer .termostat-box img {
+      width: 100%; }
+    #varmestyring #termostat-typer .termostat-box h3 {
+      font-size: 16px;
+      line-height: 20px;
+      font-weight: 600;
+      letter-spacing: 1px;
+      color: black;
+      text-transform: uppercase;
+      text-align: center; }
+    #varmestyring #termostat-typer .termostat-box p {
+      line-height: 22px; }
+
+/*-------------- END OF VARMESTYRING PAGE --------------------------------* */
 /*-------------- SMARTHUS PAGE -------------------------------- */
 #smarthus img {
   width: 100%; }
