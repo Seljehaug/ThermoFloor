@@ -20,6 +20,12 @@ body {
   font-family: "MyriadPro-Regular";
   src: url("../fonts/myriad/MyriadPro-Regular.otf") format("opentype"); }
 
+.button {
+  border-bottom: solid #ccc 1px;
+  padding-top: 10px; }
+  .button .buttontext {
+    color: #d32730; }
+
 /* ------------------------- Footer styles ----------------------------------- */
 #footer {
   background-color: #333f48;
@@ -265,6 +271,23 @@ body {
 
 #index #artikkel-liste img {
   width: 100%; }
+
+#index #artikkel-liste .artikkeltekstkolonne {
+  padding: 0px 20px; }
+
+#index #artikkel-liste h2 {
+  text-transform: uppercase;
+  font-size: 40px; }
+  #index #artikkel-liste h2 .boldleft {
+    font-weight: 900;
+    float: left; }
+  #index #artikkel-liste h2 .slimright {
+    float: right; }
+
+#index #artikkel-liste .artikkeltekst {
+  clear: both;
+  margin-top: 130px;
+  line-height: 25px; }
 
 @media (max-width: 767px) {
   #index .img-grid img {

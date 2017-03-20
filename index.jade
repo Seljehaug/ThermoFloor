@@ -55,7 +55,17 @@ html(lang="en")
 			.row
 				section#artikkel-liste
 					.col-md-12
-						a(href="artikkel_kort.html")
-							img(src="img/artikkel_oversikt.jpg")
-			
+						img(src="img/artikkel_oversikt.jpg")
+					.col-md-4
+						img(src="img/imgindex3.jpg")
+					.col-md-4.artikkeltekstkolonne
+						h2
+							.boldleft Kunsten
+							.slimright å holde seg varm
+						p
+							.artikkeltekst
+								| Siden vi var små har vi lært ulike teknikker for å holde kroppen varm. Ferdigheter som utviklet seg med alderen og som man arvet fra de som hadde gått først.
+						.button
+							a(href="...", title="Les mer", target="_blank")
+								.buttontext Les mer
 			include includes/footer.jade
