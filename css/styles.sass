@@ -33,9 +33,22 @@ body
 .button
 	border-bottom: solid #ccc 1px
 	padding-top: 10px
+	a:hover
+		text-decoration: none
 	.buttontext
 		color: $red
 
+		display: inline
+		text-transform: uppercase
+		font-size: 12px
+		font-weight: 500
+		letter-spacing: 0.05em
+		padding-left: 10px
+	.arrow
+		color: $red
+		display: inline
+		padding-left: 5px
+		font-size: 18px
 
 /* ------------------------- Footer styles ----------------------------------- */
 #footer
@@ -267,12 +280,14 @@ body
 
 	#produktkatalog
 		#produktkatalog-grid
+			background-color: #f2e6d9
 			display: flex
 			align-items: center
 			img
 				width: 100%
 
 	#artikkel-liste
+		padding-top: 40px
 		img
 			width: 100%
 		.artikkeltekstkolonne
@@ -282,12 +297,13 @@ body
 			font-size: 40px
 			.boldleft
 				font-weight: 900
-				float: left
+				display: block
 			.slimright
 				float: right
 		.artikkeltekst
 			clear: both
-			margin-top: 130px
+			margin-top: 60px
+			margin-bottom: 20px
 			line-height: 25px
 
 @media (max-width: 767px)

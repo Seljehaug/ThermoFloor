@@ -48,16 +48,14 @@ html(lang="en")
 					.col-md-12#produktkatalog-grid
 						.col-md-6
 							a(href="http://ipaper.ipapercms.dk/ThermoFloor/Katalog/", title="Thermo Floor Produktkatalog 2017", target="_blank")
-								img(src="img/produktkatalog2.png", alt="bilde av produktkatalog").img-responsive-img
+								img(src="img/produktkatalog2.png", alt="bilde av produktkatalog").img-responsive-img.imgkatalog
 						.col-md-6
 							h1 Sjekk ut vår produktkatalog for 2017					
 			
 			.row
 				section#artikkel-liste
-					.col-md-12
-						img(src="img/artikkel_oversikt.jpg")
 					.col-md-4
-						img(src="img/imgindex3.jpg")
+						img(src="img/index/artikkel_3.jpg")
 					.col-md-4.artikkeltekstkolonne
 						h2
 							.boldleft Kunsten
@@ -68,4 +66,40 @@ html(lang="en")
 						.button
 							a(href="...", title="Les mer", target="_blank")
 								.buttontext Les mer
+								.arrow &#187;
+					.col-md-4
+			.row
+				section#artikkel-liste
+					.col-md-4
+					
+					.col-md-4
+						img(src="img/index/artikkel_2.jpg")
+					.col-md-4.artikkeltekstkolonne
+						h2
+							.boldleft Fremtiden
+							.slimright er elektrisk
+						p
+							.artikkeltekst
+								| Alle har et ansvar for hverandre og for samfunnet vi er en del av, både som bedrift og som enkeltmenneske. Vi er klar over vår egen rolle som del av en større helhet der også vi skal gi vårt bidrag og ta vårt ansvar.
+						.button
+							a(href="...", title="Les mer", target="_blank")
+								.buttontext Les mer
+								.arrow &#187;
+					
+			.row
+				section#artikkel-liste
+					.col-md-4
+						img(src="img/index/artikkel_1.jpg")
+					.col-md-4.artikkeltekstkolonne
+						h2
+							.boldleft Du er trygg med
+							.slimright elektrisk oppvarming
+						p
+							.artikkeltekst
+								| I tillegg til at elektrisk oppvarming er fornybar og miljøvennlig, gir komfort gjennom rask, enkel og effektiv oppvarming, er den også helt trygg.
+						.button
+							a(href="...", title="Les mer", target="_blank")
+								.buttontext Les mer
+								.arrow &#187;
+					.col-md-4
 			include includes/footer.jade
