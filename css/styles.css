@@ -429,6 +429,22 @@ body {
       line-height: 22px;
       text-align: center; }
 
+#varmestyring .padding {
+  padding: 10px 60px 40px 60px; }
+
+#varmestyring .center {
+  text-align: center; }
+
+#varmestyring .whitearticle {
+  background-color: white;
+  padding: 10px 30px 30px 30px;
+  height: 300px;
+  max-width: 290px;
+  margin: 0px 20px; }
+
+#varmestyring h1 {
+  padding-bottom: 20px; }
+
 /*-------------- END OF VARMESTYRING PAGE --------------------------------* */
 /*-------------- SMARTHUS PAGE -------------------------------- */
 #smarthus img {
