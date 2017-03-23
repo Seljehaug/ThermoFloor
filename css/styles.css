@@ -39,6 +39,18 @@ body {
     padding-left: 5px;
     font-size: 18px; }
 
+.background-grey {
+  background-color: #f7f7f7;
+  padding: 30px 0px 30px 0px;
+  margin-bottom: 40px; }
+  .background-grey h1 {
+    text-align: center;
+    text-transform: uppercase; }
+  .background-grey p {
+    text-align: center;
+    font-size: 18px;
+    line-height: 22px; }
+
 /* ------------------------- Footer styles ----------------------------------- */
 #footer {
   background-color: #333f48;
@@ -393,15 +405,6 @@ body {
   padding: 30px 0px 30px 0px;
   margin-bottom: 40px; }
 
-#varmestyring #termostat-info h1 {
-  text-transform: uppercase; }
-
-#varmestyring #termostat-info p {
-  font-size: 18px; }
-
-#varmestyring #termostat-info .center {
-  text-align: center; }
-
 #varmestyring #termostat-typer {
   margin-bottom: 40px; }
   #varmestyring #termostat-typer h2 {
@@ -438,15 +441,6 @@ body {
   max-width: 80px;
   margin: 0 auto; }
 
-#smarthus .h1smart {
-  text-align: center; }
-
-#smarthus .pheadsmart {
-  text-align: center;
-  font-size: 18px;
-  line-height: 22px;
-  padding: 0px 220px 0px 220px; }
-
 #smarthus .articlebox {
   padding: 10px 30px 30px 30px;
   height: 370px; }
@@ -464,11 +458,6 @@ body {
   margin-top: 5px;
   color: black;
   text-transform: uppercase; }
-
-#smarthus .backgroundgreysmarthus {
-  background-color: #f7f7f7;
-  padding: 30px 0px 30px 0px;
-  margin-bottom: 40px; }
 
 #smarthus .backgroundgreyarticle {
   background-color: #f7f7f7;
