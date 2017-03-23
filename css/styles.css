@@ -563,7 +563,17 @@ body {
   #smarthus #smarthus-info img {
     display: none; }
   #smarthus #smarthus-info .articlebox {
-    height: auto; } }
+    height: auto; }
+  #smarthus #artikkel-smarthus-styring .img-container {
+    display: none; }
+  #smarthus #artikkel-smarthus-styring .text-container {
+    margin-left: 20px; }
+    #smarthus #artikkel-smarthus-styring .text-container img {
+      width: 50%; }
+  #smarthus #artikkel-danalock .img-container {
+    display: none; }
+  #smarthus #artikkel-danalock .text-container {
+    margin-right: 20px; } }
 
 /*-------------- END OF SMARTHUS PAGE --------------------------------* */
 /*-------------- ARTICLE PAGE -------------------------------- */
