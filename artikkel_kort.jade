@@ -15,13 +15,26 @@ html(lang="en")
 		// Custom styles
 		link(rel="stylesheet", type="text/css", href="../css/styles.css")
 		
-	body#smarthus
+	body#article
 		.container-fluid
 			include includes/navbar.jade
 			
-			img(src="../img/artikkel_kort.jpg")
+			.row
+				.col-md-6
+					img(src="img/index/artikkel_2.jpg")
+				.col-md-6#infotext
+					h1.artikkelh1
+						#boldh1 Fremtiden 
+						| er elektrisk
+					p.breadcrumbs Publisert: 20.01.2017 kl. 14:11 av Per Håkon Granum
+					p.ingress Alle har et ansvar for hverandre og for samfunnet vi er en del av, både som bedrift og som enkeltmenneske. Vi er klar over vår egen rolle som del av en større helhet der også vi skal gi vårt bidrag og ta vårt ansvar.
+			.row#text
+				.col-md-4
+					p Elektriske varmesystemer er i dag den mest effektive og skånsomme måten for miljøet å utnytte energi på, derfor er dette vårt satsningsområde også i fremtiden. Trådløse styringssystemer i smarte hjem, hvor termostater og elektriske komponenter selv regulerer og effektiviserer behovet for varme og lys, vil i lang tid være den beste og rimeligste metoden for våre hjem. Det betyr ikke at vi skal stå stille, vi skal alltid etterstrebe å effektivisere for å få enda mer ut av lite. Dette er fremtiden, og derfor sier vi at den er elektrisk.
+				.col-md-4
+					p Elektriske varmesystemer er i dag den mest effektive og skånsomme måten for miljøet å utnytte energi på, derfor er dette vårt satsningsområde også i fremtiden. Trådløse styringssystemer i smarte hjem, hvor termostater og elektriske komponenter selv regulerer og effektiviserer behovet for varme og lys, vil i lang tid være den beste og rimeligste metoden for våre hjem. Det betyr ikke at vi skal stå stille, vi skal alltid etterstrebe å effektivisere for å få enda mer ut av lite. Dette er fremtiden, og derfor sier vi at den er elektrisk.
+				.col-md-4
+					p Elektriske varmesystemer er i dag den mest effektive og skånsomme måten for miljøet å utnytte energi på, derfor er dette vårt satsningsområde også i fremtiden. Trådløse styringssystemer i smarte hjem, hvor termostater og elektriske komponenter selv regulerer og effektiviserer behovet for varme og lys, vil i lang tid være den beste og rimeligste metoden for våre hjem. Det betyr ikke at vi skal stå stille, vi skal alltid etterstrebe å effektivisere for å få enda mer ut av lite. Dette er fremtiden, og derfor sier vi at den er elektrisk.
 			
-			// Kontakt 
-			img(src="../img/kontakt_installator.jpg")
-			
+			include includes/contact_installator.jade
 			include includes/footer.jade

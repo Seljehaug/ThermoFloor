@@ -528,3 +528,67 @@ body {
   margin-bottom: 40px; }
 
 /*-------------- END OF SMARTHUS PAGE --------------------------------* */
+/*-------------- ARTICLE PAGE -------------------------------- */
+#article .artikkelh1 {
+  text-transform: uppercase;
+  font-size: 50px; }
+
+#article #boldh1 {
+  font-weight: 600;
+  display: inline; }
+
+#article .breadcrumbs {
+  border-bottom: solid 1px #ccc;
+  margin-bottom: 20px;
+  font-size: 12px;
+  font-weight: 600;
+  margin: 10px 0px; }
+
+#article .ingress {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 32px;
+  margin: 30px 0px; }
+
+#article img {
+  max-width: 100%; }
+
+#article #infotext {
+  padding: 0px 100px 0px 50px; }
+
+#article #text {
+  padding: 0px 50px; }
+  #article #text p {
+    padding: 40px;
+    line-height: 26px;
+    font-size: 16px; }
+
+/*-------------- END OF ARTICLE PAGE --------------------------------* */
+/*-------------- CONTACT INSTALLATOR PAGE -------------------------------- */
+#contact_installator {
+  padding: 0px 100px;
+  margin-bottom: 50px; }
+  #contact_installator h2 {
+    text-transform: uppercase; }
+  #contact_installator #boldh2 {
+    font-weight: 600;
+    display: inline; }
+  #contact_installator p {
+    margin-top: 10px; }
+  #contact_installator #morespace {
+    margin-top: 100px; }
+  #contact_installator #epost-input, #contact_installator #text-input, #contact_installator #phone-input {
+    width: 100%;
+    border: none;
+    background-color: #f7f7f7;
+    padding: 7px;
+    margin: 5px 0px; }
+  #contact_installator #place-input {
+    width: 85%;
+    border: none;
+    background-color: #f7f7f7;
+    padding: 7px;
+    margin: 5px 0px; }
+  #contact_installator #googlemap {
+    width: 100%;
+    height: 200px; }

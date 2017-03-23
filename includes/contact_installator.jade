@@ -1,0 +1,29 @@
+// Kontakt 
+.row#contact_installator
+	.col-md-4
+		h2
+			#boldh2 Kontakt 
+			| en installatør
+		p E-post
+		form#epost-form(name='epost-form', action='#', method='post')
+				input#epost-input(type='email', name='email', placeholder='example@epost.com')
+		.col-md-6
+			p By/tettsted
+			form#place-form(name='place-form', action='#', method='post')
+				input#place-input(type='text', name='place')
+		.col-md-6
+			p Telefonnummer
+			form#phone-form(name='phone-form', action='#', method='post')
+				input#phone-input(type='text', name='phone', value='+47')
+		p#morespace Din melding
+		form#text-form(name='text-form', action='#', method='post')
+				textarea#text-input(type='text', name='text', rows='4' cols='50')
+		.see-more-link
+			a(href="...", title="Les mer", target="_blank")
+				.buttontext Send forespørsel
+				.arrow &#187;
+	.col-md-8
+		#googleMap
+		
+include ../js/googlemap.js
+script(src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCYbbwU5wdQSsO19IicURCfCjbW3FVYz_c&callback=myMap")
