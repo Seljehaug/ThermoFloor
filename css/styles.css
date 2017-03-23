@@ -563,6 +563,10 @@ body {
     line-height: 26px;
     font-size: 16px; }
 
+@media (max-width: 991px) {
+  #article #text p {
+    padding: 0px; } }
+
 /*-------------- END OF ARTICLE PAGE --------------------------------* */
 /*-------------- CONTACT INSTALLATOR PAGE -------------------------------- */
 #contact_installator {
@@ -592,3 +596,11 @@ body {
   #contact_installator #googlemap {
     width: 100%;
     height: 200px; }
+
+@media (max-width: 991px) {
+  #contact_installator {
+    padding: 50px; }
+    #contact_installator #place-input {
+      width: 100%; }
+    #contact_installator #morespace {
+      margin-top: 10px; } }
