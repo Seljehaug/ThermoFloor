@@ -488,19 +488,36 @@ body {
 #smarthus .backgroundgreyarticle {
   background-color: #f7f7f7;
   margin-bottom: 40px; }
+  #smarthus .backgroundgreyarticle .article-wrapper {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex; }
+  #smarthus .backgroundgreyarticle .text-container {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center; }
+
+#smarthus #artikkel-smarthus-styring .text-container {
+  margin-right: 20px; }
+
+#smarthus #artikkel-danalock .text-container {
+  margin-left: 20px; }
 
 #smarthus .h3smart {
   font-size: 16px;
   line-height: 20px;
   font-weight: 600;
   letter-spacing: 1px;
-  text-align: center;
   color: black; }
 
 #smarthus .psmart {
-  line-height: 22px;
-  text-align: center;
-  margin-bottom: 40px; }
+  line-height: 22px; }
 
 #smarthus .smarthuspadding {
   padding: 30px 30px 0px 30px; }
@@ -521,11 +538,32 @@ body {
   font-weight: 500;
   letter-spacing: 0.05em; }
 
-#smarthus .smarthusarticle {
-  padding-top: 30px; }
-
 #smarthus .padding {
   margin-bottom: 40px; }
+
+@media (max-width: 1000px) {
+  #smarthus .borderarticle {
+    padding: 10px; } }
+
+@media (min-width: 860px) and (max-width: 980px) {
+  #smarthus #smarthus-info {
+    margin-bottom: 40px; } }
+
+@media (min-width: 768px) and (max-width: 860px) {
+  #smarthus #smarthus-info {
+    margin-bottom: 100px; } }
+
+@media (max-width: 768px) {
+  #smarthus .background-grey {
+    padding: 30px 30px 30px 30px; }
+    #smarthus .background-grey p {
+      text-align: left; }
+  #smarthus .articleboxeksempel {
+    min-height: 150px; }
+  #smarthus #smarthus-info img {
+    display: none; }
+  #smarthus #smarthus-info .articlebox {
+    height: auto; } }
 
 /*-------------- END OF SMARTHUS PAGE --------------------------------* */
 /*-------------- ARTICLE PAGE -------------------------------- */

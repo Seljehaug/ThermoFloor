@@ -488,17 +488,32 @@ body
 	.backgroundgreyarticle
 		background-color: #f7f7f7
 		margin-bottom: 40px
+		.article-wrapper
+			display: flex
+		.text-container
+			display: flex
+			flex-direction: column
+			justify-content: center
+
+	#artikkel-smarthus-styring
+		.text-container
+			margin-right: 20px
+
+	#artikkel-danalock
+		.text-container
+			margin-left: 20px
+
 	.h3smart
 		font-size: 16px
 		line-height: 20px
 		font-weight: 600
 		letter-spacing: 1px
-		text-align: center
+		// text-align: center
 		color: black
 	.psmart
 		line-height: 22px
-		text-align: center
-		margin-bottom: 40px
+		// text-align: center
+		// margin-bottom: 40px
 	.smarthuspadding
 		padding: 30px 30px 0px 30px
 	.see-more-link-smarthus
@@ -516,9 +531,39 @@ body
 		font-weight: 500
 		letter-spacing: 0.05em
 	.smarthusarticle
-		padding-top: 30px
+		// padding-top: 30p
 	.padding
 		margin-bottom: 40px
+
+@media (max-width: 1000px)
+	#smarthus
+		.borderarticle
+			padding: 10px
+
+@media (min-width: 860px) and (max-width: 980px)
+	#smarthus
+		#smarthus-info
+			margin-bottom: 40px
+
+@media (min-width: 768px) and (max-width: 860px)
+	#smarthus
+		#smarthus-info
+			margin-bottom: 100px
+
+@media (max-width: 768px)
+	#smarthus
+		.background-grey
+			padding: 30px 30px 30px 30px
+			p
+				text-align: left
+
+		.articleboxeksempel
+			min-height: 150px
+		#smarthus-info
+			img
+				display: none
+			.articlebox
+				height: auto
 
 
 
