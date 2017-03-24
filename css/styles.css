@@ -429,6 +429,8 @@ body {
   background-color: #f7f7f7;
   padding: 30px 0px 30px 0px;
   margin-bottom: 40px; }
+  #varmelosninger .backgroundgrey h1 {
+    text-transform: uppercase; }
 
 #varmelosninger .product-section {
   margin-bottom: 50px; }
@@ -480,6 +482,63 @@ body {
       text-transform: uppercase;
       font-size: 14px;
       font-weight: 800; }
+
+@media (max-width: 991px) {
+  #varmelosninger #varmelosningtop {
+    max-width: 80%;
+    margin: 0 auto; }
+  #varmelosninger .product-section {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center; }
+    #varmelosninger .product-section .img-col {
+      max-width: 63%;
+      -webkit-order: 1;
+      -ms-flex-order: 1;
+      order: 1;
+      margin: 0;
+      padding: 0; }
+    #varmelosninger .product-section .infotext {
+      max-width: 63%;
+      -webkit-order: 2;
+      -ms-flex-order: 2;
+      order: 2;
+      padding-left: 5px;
+      padding-right: 0; }
+    #varmelosninger .product-section .products {
+      max-width: 63%;
+      width: 100%;
+      -webkit-order: 3;
+      -ms-flex-order: 3;
+      order: 3;
+      padding-left: 5px;
+      padding-right: 0; } }
+
+@media (max-width: 768px) {
+  #varmelosninger #varmelosningtop {
+    max-width: 90%; }
+  #varmelosninger .product-section .img-col {
+    max-width: 80%; }
+  #varmelosninger .product-section .infotext {
+    max-width: 80%; }
+  #varmelosninger .product-section .products {
+    max-width: 80%; } }
+
+@media (max-width: 490px) {
+  #varmelosninger #varmelosningtop h1 span {
+    display: block; }
+  #varmelosninger .product-section .img-col {
+    max-width: 90%; }
+  #varmelosninger .product-section .infotext {
+    max-width: 90%; }
+  #varmelosninger .product-section .products {
+    max-width: 90%; } }
 
 /*-------------- END OF VARMELØSNINGER PAGE --------------------------------* */
 /*-------------- VARMESTYRING PAGE -------------------------------- */

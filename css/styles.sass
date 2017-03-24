@@ -360,14 +360,14 @@ body
 				.katalog
 					padding: 20px
 					text-align: center
-	
+
 @media (min-width: 991px) and (max-width: 1366px)
 	#index
 		#produktkatalog
 			#produktkatalog-grid
 				.katalog
 					padding-right: 120px
-	
+
 @media (max-width: 767px)
 	#index
 		.img-grid img
@@ -378,7 +378,7 @@ body
 			img
 				position: static
 				display: none
-	
+
 @media (min-width: 991px) and (max-width: 1117px)
 	#index
 		#artikkel-liste
@@ -386,9 +386,9 @@ body
 				display: none
 			.longertablet
 				width: 55%
-	
-	
-	
+
+
+
 @media (max-width: 767px)
 	#index
 		.img-grid img
@@ -445,7 +445,7 @@ body
 			.see-more-link
 				margin-left: 5%
 				margin-right: 5%
-				margin-bottom: 5%	
+				margin-bottom: 5%
 /*------------- END OF INDEX PAGE -------------------------------*/
 
 /*-------------- VARMELØSNINGER PAGE -------------------------------- */
@@ -455,6 +455,8 @@ body
 		background-color: #f7f7f7
 		padding: 30px 0px 30px 0px
 		margin-bottom: 40px
+		h1
+			text-transform: uppercase
 
 	.product-section
 		margin-bottom: 50px
@@ -503,7 +505,56 @@ body
 					text-transform: uppercase
 					font-size: 14px
 					font-weight: 800
+@media (max-width: 991px)
+	#varmelosninger
+		#varmelosningtop
+			max-width: 80%
+			margin: 0 auto
+		.product-section
+			display: flex
+			flex-direction: column
+			align-items: center
+			.img-col
+				max-width: 63%
+				order: 1
+				margin: 0
+				padding: 0
+			.infotext
+				max-width: 63%
+				order: 2
+				padding-left: 5px
+				padding-right: 0
+			.products
+				max-width: 63%
+				width: 100%
+				order: 3
+				padding-left: 5px
+				padding-right: 0
 
+@media (max-width: 768px)
+	#varmelosninger
+		#varmelosningtop
+			max-width: 90%
+		.product-section
+			.img-col
+				max-width: 80%
+			.infotext
+				max-width: 80%
+			.products
+				max-width: 80%
+
+@media (max-width: 490px)
+	#varmelosninger
+		#varmelosningtop h1 span
+			display: block
+
+		.product-section
+			.img-col
+				max-width: 90%
+			.infotext
+				max-width: 90%
+			.products
+				max-width: 90%
 /*-------------- END OF VARMELØSNINGER PAGE --------------------------------* */
 
 /*-------------- VARMESTYRING PAGE -------------------------------- */
