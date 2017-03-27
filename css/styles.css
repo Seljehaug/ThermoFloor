@@ -783,6 +783,34 @@ body {
     padding: 0px; } }
 
 /*-------------- END OF ARTICLE PAGE --------------------------------* */
+/*-------------- KONTAKT PAGE --------------------------------------- */
+#kontaktside .background-grey {
+  background-color: #f7f7f7;
+  padding: 30px 0px 30px 0px;
+  margin-bottom: 40px; }
+
+#kontaktside h3 {
+  text-align: center; }
+
+#kontaktside h4 {
+  margin-top: 20px;
+  text-align: left; }
+
+#kontaktside p {
+  text-align: left; }
+
+#kontaktside .profile {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 10px; }
+  #kontaktside .profile .profile-img img {
+    max-width: 150px; }
+  #kontaktside .profile .profile-text {
+    margin-top: 20px;
+    margin-left: 5px; }
+
+/*-------------- END OF KONTAKT PAGE --------------------------------* */
 /*-------------- CONTACT INSTALLATOR PAGE -------------------------------- */
 #contact_installator {
   padding: 0px 100px;
