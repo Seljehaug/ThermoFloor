@@ -816,10 +816,6 @@ body {
   font-size: 18px;
   line-height: 32px; }
 
-#article img {
-  max-width: 100%;
-  img-align: middle; }
-
 #article #infotext {
   padding: 50px 50px 60px 60px;
   background-color: white;
@@ -875,9 +871,59 @@ body {
         font-size: 12px;
         font-weight: 600; }
 
+@media (max-width: 1321px) {
+  #article #infotext {
+    margin-top: -300px;
+    padding: 40px 40px 50px 50px; } }
+
+@media (max-width: 1244px) {
+  #article #topimg {
+    background-position: center -350px; }
+  #article #products {
+    width: 33%; } }
+
 @media (max-width: 991px) {
+  #article #topimg {
+    background-position: center -300px; }
+  #article #products {
+    width: auto;
+    margin: 0 auto; }
+    #article #products .product {
+      margin-left: 25%; }
+      #article #products .product .product-text p {
+        padding: 0px; }
   #article #text p {
-    padding: 0px; } }
+    padding: 0px 70px; } }
+
+@media (min-width: 750px) and (max-width: 881px) {
+  #article #topimg {
+    background-position: center -250px; }
+  #article #products {
+    width: auto;
+    margin: 0 auto; }
+    #article #products .product {
+      margin-left: 20%; }
+      #article #products .product .product-text p {
+        padding: 0px; }
+  #article #text p {
+    padding: 0px 50px; } }
+
+@media (max-width: 750px) {
+  #article #topimg {
+    background-position: center -350px; }
+  #article #products {
+    width: auto;
+    margin: 0 auto; }
+    #article #products .product {
+      margin-left: 5%; }
+      #article #products .product .product-text p {
+        padding: 0px; }
+  #article #text p {
+    padding: 0px 30px; } }
+
+@media (min-width: 555px) and (max-width: 750px) {
+  #article #products .product {
+    margin-left: 10%; } }
 
 /*-------------- END OF ARTICLE PAGE --------------------------------* */
 /*-------------- KONTAKT PAGE --------------------------------------- */
