@@ -56,7 +56,7 @@ html(lang="en")
 			
 			.row
 				section#artikkel-liste
-					.col-md-4
+					.col-md-4.col-md-offset-2
 						img(src="img/index/artikkel_3.jpg")
 					.col-md-4.artikkeltekstkolonne.longertablet
 						h2
@@ -69,14 +69,14 @@ html(lang="en")
 							a(href="/artikkel_kort.html", title="Les mer")
 								.buttontext Les mer
 								.arrow &#187;
-					.col-md-4.displaynone
+					//.col-md-4.displaynone
 			.row
 				section#artikkel-liste
-					.col-md-4.displaynone
+					//.col-md-4.displaynone
 					
-					.col-md-4
+					.col-md-4.col-md-offset-2.col-md-push-4
 						img(src="img/index/artikkel_2.jpg")
-					.col-md-4.artikkeltekstkolonne.longertablet
+					.col-md-4.artikkeltekstkolonne.longertablet.col-md-pull-4
 						h2
 							.boldleft Fremtiden
 							.slimright er elektrisk
@@ -90,9 +90,9 @@ html(lang="en")
 					
 			.row
 				section#artikkel-liste
-					.col-md-4
+					.col-md-4.col-md-offset-2
 						img(src="img/index/artikkel_1.jpg")
-					.col-md-4.artikkeltekstkolonne.longertablet
+					.col-md-4.artikkeltekstkolonne.longertablet.morespace
 						h2
 							.boldleft Du er trygg med
 							.slimright elektrisk oppvarming
@@ -103,5 +103,5 @@ html(lang="en")
 							a(href="/artikkel_kort.html", title="Les mer")
 								.buttontext Les mer
 								.arrow &#187;
-					.col-md-4.displaynone
+					//.col-md-4.displaynone
 			include includes/footer.jade
