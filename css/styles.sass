@@ -116,10 +116,10 @@ body
 				margin-left: 10px
 				top: -35px
 				transition: all 100ms
-		&:hover
-			span
-				transform: scale(1.2)
-				transition: all 100ms
+			&:hover
+				span
+					transform: scale(1.2)
+					transition: all 100ms
 
 
 	#sosiale-medier
@@ -138,8 +138,14 @@ body
 			svg
 				height: 35px
 				width: 35px
+				&:hover
+					// transform: scale(1.2)
+					path
+						fill: black
+						transition: all 200ms
 				path
 					fill: $darker-grey
+					transition: all 200ms
 
 	#footer-logo
 		// padding-bottom: 50px

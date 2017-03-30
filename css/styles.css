@@ -121,11 +121,11 @@ body {
         margin-left: 10px;
         top: -35px;
         transition: all 100ms; }
-    #footer #nyhetsbrev:hover span {
-      -webkit-transform: scale(1.2);
-      -ms-transform: scale(1.2);
-      transform: scale(1.2);
-      transition: all 100ms; }
+      #footer #nyhetsbrev button:hover span {
+        -webkit-transform: scale(1.2);
+        -ms-transform: scale(1.2);
+        transform: scale(1.2);
+        transition: all 100ms; }
   #footer #sosiale-medier {
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -149,8 +149,12 @@ body {
       #footer #sosiale-medier .item-list svg {
         height: 35px;
         width: 35px; }
+        #footer #sosiale-medier .item-list svg:hover path {
+          fill: black;
+          transition: all 200ms; }
         #footer #sosiale-medier .item-list svg path {
-          fill: #929292; }
+          fill: #929292;
+          transition: all 200ms; }
   #footer #footer-logo {
     background-color: #313b42;
     display: -webkit-flex;
