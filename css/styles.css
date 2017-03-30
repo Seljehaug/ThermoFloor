@@ -81,7 +81,7 @@ body {
     -webkit-flex-direction: column;
     -ms-flex-direction: column;
     flex-direction: column;
-    padding: 50px; }
+    padding: 100px; }
     #footer #nyhetsbrev h3 {
       margin: 0;
       margin-bottom: 20px;
@@ -136,8 +136,7 @@ body {
     -webkit-align-items: center;
     -ms-flex-align: center;
     align-items: center;
-    background-color: #313b42;
-    padding-top: 20px; }
+    background-color: #313b42; }
     #footer #sosiale-medier .item-list {
       margin: 20px;
       display: -webkit-flex;
@@ -153,7 +152,6 @@ body {
         #footer #sosiale-medier .item-list svg path {
           fill: #929292; }
   #footer #footer-logo {
-    padding-bottom: 50px;
     background-color: #313b42;
     display: -webkit-flex;
     display: -ms-flexbox;
