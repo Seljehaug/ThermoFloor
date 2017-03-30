@@ -172,6 +172,12 @@ body {
       #footer #footer-logo svg path {
         fill: #929292; }
 
+@media (max-width: 600px) {
+  #footer #nyhetsbrev {
+    padding: 80px; }
+    #footer #nyhetsbrev #newsletter-form input {
+      max-width: 80%; } }
+
 /* ------------------------- End of footer styles ----------------------------------- */
 /* ------------------------- Navbar styles ----------------------------------- */
 .navbar-default .navbar-toggle {
