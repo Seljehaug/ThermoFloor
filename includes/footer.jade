@@ -1,70 +1,93 @@
 .row
 	footer#footer
-		#kontakt.col-sm-4
-			h3 Kontakt
-				.item-list
-					.item
-						// Icon made by Chanut Is Industries from www.flaticon.com 
-						.icon 
-							include svg-icons/map-pin-icon.jade
-						.text 
-							span Østre Totenvei 24, 2816 Gjøvik
-							
-					.item
-						// Icon made by SimpleIcon from www.flaticon.com 
-						.icon
-							include svg-icons/mail-icon.jade
-						.text
-							span post@thermo-floor.no
-					
-					.item
-						// Icon made by Chanut Is Industries from www.flaticon.com 
-						.icon
-							include svg-icons/phone-icon.jade
-						.text 
-							span 61 18 77 77
-								
-					.item
-						// Icon made by Yannick from www.flaticon.com 
-						.icon
-							include svg-icons/fax-icon.jade
-						.text
-							span 61 18 77 70
+		//- #kontakt.col-sm-4
+		//- 	h3 Kontakt
+		//- 		.item-list
+		//- 			.item
+		//- 				// Icon made by Chanut Is Industries from www.flaticon.com 
+		//- 				.icon 
+		//- 					include svg-icons/map-pin-icon.jade
+		//- 				.text 
+		//- 					span Østre Totenvei 24, 2816 Gjøvik
+		//- 					
+		//- 			.item
+		//- 				// Icon made by SimpleIcon from www.flaticon.com 
+		//- 				.icon
+		//- 					include svg-icons/mail-icon.jade
+		//- 				.text
+		//- 					span post@thermo-floor.no
+		//- 			
+		//- 			.item
+		//- 				// Icon made by Chanut Is Industries from www.flaticon.com 
+		//- 				.icon
+		//- 					include svg-icons/phone-icon.jade
+		//- 				.text 
+		//- 					span 61 18 77 77
+		//- 						
+		//- 			.item
+		//- 				// Icon made by Yannick from www.flaticon.com 
+		//- 				.icon
+		//- 					include svg-icons/fax-icon.jade
+		//- 				.text
+		//- 					span 61 18 77 70
 
 		
-		#nyhetsbrev.col-sm-4.center
+		#nyhetsbrev.col-xs-12
 			h3 Nyhetsbrev
-			p.smaller Hold deg oppdatert. Skriv inn din epost-adresse 
+			p.center Hold deg oppdatert. Skriv inn din epost-adresse 
 				| for å få tilsendt månedlige nyhetsbrev. 
 			// action specifies the page which this submit should be sent to
 			form#newsletter-form(name='newsletter-form', action='#', method='post')
 				input#input-email(type='email', name='email', placeholder='example@epost.com')
-				button#submit-newsletter-form(type='submit', name='submit-btn') Send	
+				button#submit-newsletter-form(type='submit', name='submit-btn') 
+					span.submit-arrow &#187;
 		
-		#sosiale-medier.col-sm-4.right
-			h3 Sosiale Medier
-				.item-list
-					.item
-						.text 
-							span 
-								a(href="https://www.facebook.com/ThermoFloorAS") Facebook 
-						.icon.leftpadding
-							include svg-icons/facebook-icon.jade		
-					.item
-						.text 
-							span 
-								a(href="http://innivarmen.no/") Blogg
-						.icon.leftpadding
-							include svg-icons/blogg-icon.jade		
-					.item
-						.text
-							span
-								a(href="https://www.youtube.com/channel/UCfpUSmbXVJK5GPEQq9_OLtg") YouTube
-						.icon.leftpadding
-							include svg-icons/youtube-icon.jade		
-					.item
-						.text
-							span
-								a(href="https://www.instagram.com/thermofloor/") Instagram
-						.icon.leftpadding
-							include svg-icons/instagram-icon.jade		
+		#sosiale-medier.col-xs-12
+			.item-list
+				.item
+					a(href="https://www.facebook.com/ThermoFloorAS")
+						include svg-icons/facebook-icon.jade		
+				.item
+					a(href="http://innivarmen.no/")
+						include svg-icons/blogg-icon.jade		
+				.item
+					a(href="https://www.youtube.com/channel/UCfpUSmbXVJK5GPEQq9_OLtg")
+						include svg-icons/youtube-icon.jade		
+				.item
+					a(href="https://www.instagram.com/thermofloor/")
+						include svg-icons/instagram-icon.jade
+					
+		#footer-logo.col-xs-12
+			include svg-icons/logo.jade
+		
+		
+		//- #sosiale-medier.col-sm-4.right
+		//- 	h3 Sosiale Medier
+		//- 		.item-list
+		//- 			.item
+		//- 				.text 
+		//- 					span 
+		//- 						a(href="https://www.facebook.com/ThermoFloorAS") Facebook 
+		//- 				.icon.leftpadding
+		//- 					include svg-icons/facebook-icon.jade		
+		//- 			.item
+		//- 				.text 
+		//- 					span 
+		//- 						a(href="http://innivarmen.no/") Blogg
+		//- 				.icon.leftpadding
+		//- 					include svg-icons/blogg-icon.jade		
+		//- 			.item
+		//- 				.text
+		//- 					span
+		//- 						a(href="https://www.youtube.com/channel/UCfpUSmbXVJK5GPEQq9_OLtg") YouTube
+		//- 				.icon.leftpadding
+		//- 					include svg-icons/youtube-icon.jade		
+		//- 			.item
+		//- 				.text
+		//- 					span
+		//- 						a(href="https://www.instagram.com/thermofloor/") Instagram
+		//- 				.icon.leftpadding
+		//- 					include svg-icons/instagram-icon.jade
+							
+//- .row
+	//- include svg-icons/logo.jade
