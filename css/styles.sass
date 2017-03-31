@@ -74,6 +74,7 @@ body
 	flex-direction: column
 	justify-content: center
 	align-items: center
+	margin-top: 50px
 
 	#nyhetsbrev
 		display: flex
@@ -81,7 +82,7 @@ body
 		align-items: center
 		flex-direction: column
 		// max-width: 300px
-		padding: 100px
+		padding: 80px
 		h3
 			margin: 0
 			margin-bottom: 20px
@@ -90,12 +91,14 @@ body
 		p
 			margin-bottom: 20px
 			max-width: 300px
+			text-align: center
 
 		input[type="email"]
 			background-color: $darker-grey
 			border: none
 			color: $footer
 			padding: 10px
+			width: 220px
 			font-weight: 700
 			&:focus
 				outline: none
@@ -114,7 +117,7 @@ body
 				position: absolute
 				font-size: 42px
 				margin-left: 10px
-				top: -35px
+				top: -30px
 				transition: all 100ms
 			&:hover
 				span
@@ -127,7 +130,7 @@ body
 		justify-content: center
 		align-items: center
 		background-color: $dark-footer
-		// padding-top: 20px
+		padding-top: 20px
 		.item-list
 			margin: 20px
 			display: flex
@@ -141,14 +144,14 @@ body
 				&:hover
 					// transform: scale(1.2)
 					path
-						fill: black
+						fill: $white
 						transition: all 200ms
 				path
 					fill: $darker-grey
 					transition: all 200ms
 
 	#footer-logo
-		// padding-bottom: 50px
+		padding-bottom: 50px
 		background-color: $dark-footer
 		display: flex
 		justify-content: center
@@ -628,6 +631,9 @@ body
 		margin-left: -20px
 	.center
 		text-align: center
+	.pictogram
+		max-width: 55%
+		margin: 0 auto
 	.whitearticle
 		background-color: white
 		padding: 10px 30px 30px 30px
